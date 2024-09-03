@@ -6,6 +6,6 @@ services:
     url: docker.io/ryohuy2410/meow-repo:meow
   plan: free
   envVars:
-  - fromGroup: var
-  region: oregon
+  - fromGroup: meow
+  region: singapore
 version: "1"
