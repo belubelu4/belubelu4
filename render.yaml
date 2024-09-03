@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: Ei
+  name: Raiden Shogun
   runtime: image
   image:
     url: docker.io/ryohuy2410/meow-repo:meow
