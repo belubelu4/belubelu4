@@ -1,11 +1,11 @@
 services:
 - type: web
-  name: Ei
+  name: Nupakachi
   runtime: image
   image:
     url: docker.io/ryohuy2410/meow-repo:meow
   plan: free
   envVars:
-  - fromGroup: Ei
+  - fromGroup: var
   region: oregon
 version: "1"
