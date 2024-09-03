@@ -1,0 +1,11 @@
+services:
+- type: web
+  name: Ei
+  runtime: image
+  image:
+    url: docker.io/ryohuy2410/meow-repo:meow
+  plan: free
+  envVars:
+  - fromGroup: Ei
+  region: oregon
+version: "1"
