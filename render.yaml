@@ -7,5 +7,5 @@ services:
   plan: free
   envVars:
   - fromGroup: meow
-  region: singapore
+  region: oregon
 version: "1"
